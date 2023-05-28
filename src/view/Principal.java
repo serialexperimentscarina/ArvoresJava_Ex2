@@ -5,11 +5,11 @@ import br.com.serialexperimentscarina.arvoreint.ArvoreInt;
 public class Principal {
 
 	public static void main(String[] args) {
-		char[] vetor = {33, 15, 41, 38, 47, 34, 49, 43};
+		int[] vetor = {33, 15, 41, 38, 47, 34, 49, 43};
 		ArvoreInt arvore = new ArvoreInt();
 		
-		for (char letra : vetor) {
-			arvore.insert(letra);
+		for (int valor : vetor) {
+			arvore.insert(valor);
 		}
 		
 		try {
